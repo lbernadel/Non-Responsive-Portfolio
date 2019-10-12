@@ -1,21 +1,55 @@
+/* Basic Page Styling */
 html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+
+    background-image: url("../Images/gplaypattern.png");
+    background-repeat: repeat;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
 h1 h2 h3 h4 h5 h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p, li {
-    font-family: Arial, Helvetica, sans-serif;
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: #ccc solid 2px;
+    padding-bottom: 18px;
+}
+
+p, li, form {
     font-size: 16px;
     line-height: 2;
-    color: #777;
 }
+
 header {
     background-color: #fff;
     height:90px;
     border-bottom: #ccc solid 2px;
     margin-top: 0;
 }
+
+.content {
+    background-color: #fff;
+    margin: 5% 20% 5% 18%;
+    flex: 1 0 auto;
+    width: 960px;
+}
+
+footer {
+    background-color:#666;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Nav Bar */
 .Nav {
     list-style-type: none;
     float: right;
@@ -39,6 +73,7 @@ header {
         color:#fff;
     }    
 
+/* Name Logo in Header */
 .logo {
     background-color: #4aaaa5;
     height: 45px;
@@ -49,41 +84,19 @@ header {
     color:#fff;
     text-align: center;
 }
-img {
-    float: left;
-    margin: 10px 17px 5px 0px;
-}
-footer {
-    background-color:#666;
-    border-top: 8px solid #4aaaa5;
-    flex-shrink: 0;
-    font-size: 14px;
-    text-align: center;
-    color: #fff;
-    padding: 20px;
-}
-body {
-    background-image: url("../Images/gplaypattern.png");
-    background-repeat: repeat;
-    display: flex;
-    flex-direction: column;
-}
 
-.content {
-    background-color: #fff;
-    margin: 5% 20% 5% 18%;
-    flex: 1 0 auto;
-    width: 960px;
-}
-h2 {
-    color: #4aaaa5;
-    border-bottom: #ccc solid 2px;
-    padding-bottom: 18px;
-}
+/* Bio Area */
 .about {
     padding: 25px;
     border: #ddd solid 1px;
 }
+    /* Profile Pic */
+    .me {
+        float: left;
+        margin: 10px 17px 5px 0px;
+    }
+
+/* Contact Form */
 button {
     background-color: #4aaaa5;
     color:#fff;

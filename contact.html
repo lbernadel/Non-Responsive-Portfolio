@@ -16,16 +16,16 @@
         </header>
         <div class="content">
             <form class="about">
-                Name:<br>
-                <input type="text" name="first-last" maxlength="none" cols="80px" autofocus placeholder="Ex: Jane Doe" required>
+                <label for="flname">Name</label>
+                <input type="text" id="flname" name="first-last" autofocus placeholder="Your Full Name (Ex: Jane Doe)" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address (Ex: jane.doe@website.com)" required>
+                
+                <label for="msg">Message</label>
+                <textarea id="msg" name="message" style="height:300px;" placeholder="Drop me a note..." required>
                     <br>
-                Email:<br>
-                <input type="email" name="email" maxlength="none" cols="80px" placeholder="Ex: jane.doe@website.com" required>
-                    <br>
-                Message:<br>
-                <textarea name="message" rows="30px" cols="80px" placeholder="Write me a nice note..." required>
-                    <br>
-                <input type="submit" value="Send"
+                <input type="submit" value="Send">
             </form>
         </div>
        <footer class="footer">Copyright © 2019</footer>
