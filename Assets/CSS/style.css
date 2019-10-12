@@ -4,12 +4,12 @@ html, body {
 h1 h2 h3 h4 h5 h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p, li {
+/* p, li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #777;
-}
+} */
 header {
     background-color: #fff;
     height:90px;
@@ -19,8 +19,8 @@ header {
 .Nav {
     list-style-type: none;
     float: right;
-    margin:0 10%;
-    padding: 23px 3px;
+    margin-right: 18%;
+    padding: 23px 8px;
 }
     li {
         display: inline-block;
@@ -43,20 +43,19 @@ header {
     height: 49px;
     width: 250px;
     float: left;
-    margin:0 0 0 10%;
+    margin:0 0 0 18%;
     padding: 20px 3px;
     color:#fff;
     text-align: center;
 }
 img {
     float: left;
-    margin: 17px 17px 5px 0px;
+    margin: 10px 17px 5px 0px;
 }
 footer {
     background-color:#666;
     border-top: 8px solid #4aaaa5;
     flex-shrink: 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-align: center;
     color: #fff;
@@ -71,8 +70,9 @@ body {
 
 .content {
     background-color: #fff;
-    margin: 5% 10%;
+    margin: 5% 20% 5% 18%;
     flex: 1 0 auto;
+    width: 960px;
 }
 h2 {
     color: #4aaaa5;
@@ -82,4 +82,9 @@ h2 {
 .about {
     padding: 25px;
     border: #ddd solid 1px;
+}
+button {
+    background-color: #4aaaa5;
+    color:#fff;
+    text-align: center;
 }
