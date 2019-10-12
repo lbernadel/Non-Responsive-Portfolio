@@ -1,28 +1,67 @@
+h1 h2 h3 h4 h5 h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777;
+}
+
 header {
     background-color: #fff;
-    height:100px;
-    width:auto;
+    height:90px;
+    width: 100%;
+    margin:0;
+    position: fixed;
+        top:0;
+        bottom: 90px;
+    border-bottom: #ccc solid 2px;
 }
+
+#Nav {
+    list-style-type: none;
+    margin:0 10%;
+    padding: 0;
+    position: absolute;
+        right: 0;
+        bottom: 45%;
+}
+    li {
+        display: inline;
+        border-right: 1px solid #eee;
+        padding: 8px;
+        text-align: center;
+    }  
+    a {
+        padding: 8px;
+        color:#777;
+        text-decoration: none;
+        }
+    li a:hover {
+        background-color: #ccc;
+        color:#fff;
+    }    
+
 .logo {
     background-color: #4aaaa5;
-    height: inherit;
+    display: inline-block;
+    height: 90px;
     width: 250px;
-    margin-left: 10%;
     text-align: center;
-    color:#fff; 
+    color:#fff;
+   
 }
 body {
     background-image: url("../Images/gplaypattern.png");
     background-repeat: repeat;
 }
-.all-content {
+
+.content {
     background-color: #fff;
-    width: 960px;
-    margin-left:10%;
-    margin-right:10%;
+    margin: 10%;
+    
 }
 .about {
-    padding:10px 15px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding:10px 20px;
 }
