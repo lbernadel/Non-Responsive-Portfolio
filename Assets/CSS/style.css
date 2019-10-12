@@ -96,9 +96,27 @@ footer {
         margin: 10px 17px 5px 0px;
     }
 
-/* Contact Form */
-button {
+/* Contact Form Area*/
+.form {
+    margin: 5%;
+}
+input[type=text], input[type=email], textarea {
+    width:100%;
+    padding:10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+/* Submit Button */
+input[type=submit] {
     background-color: #4aaaa5;
     color:#fff;
     text-align: center;
+}
+
+input[type=sumbit]:hover {
+    background-color: #ccc;
+    color:#fff;
 }
