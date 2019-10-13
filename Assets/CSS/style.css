@@ -1,4 +1,4 @@
-/* Basic Page Styling */
+/* Basic Site Styling */
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -10,22 +10,25 @@ html, body {
     flex-direction: column;
 }
 
-h {
-    color: #4aaaa5;
-    border-bottom: #ccc solid 2px;
-    padding-bottom: 18px;
-}
-
-p, li {
-    font-size: 16px;
-    line-height: 2;
-}
-
 header {
     background-color: #fff;
     height:90px;
     border-bottom: #ccc solid 2px;
     padding:0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+hr {
+    border: #ccc solid 2px;
+    margin: 1em 0;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
 }
 
 .content {
@@ -77,10 +80,8 @@ footer {
 .logo {
     display: inline-block;
     background-color: #4aaaa5;
-    height: 45px;
-    width: 250px;
     margin:0 0 0 18%;
-    padding: 22px 3px;
+    padding: 22px 8px;
     color:#fff;
     text-align: center;
 }
@@ -95,14 +96,17 @@ footer {
 form {
     margin: 20px auto;
     width: max-content;
+    font-size: 0.875;
+    box-sizing: content-box;
 }
     input, textarea {
-        width:100%;
+        display: block;
+        width:850px;
         padding:10px;
         border: 1px solid #ddd;
-        box-sizing: border-box;
-        margin-top: 5px;
-        margin-bottom: 8px;
+        margin: 10px 0;
+        font-size: 0.857em;
+        font-family: inherit;
     }
 
     /* Submit Button */
@@ -110,6 +114,7 @@ form {
         background-color: #4aaaa5;
         color:#fff;
         text-align: center;
+        padding:8px;
     }
 
     button:hover {
