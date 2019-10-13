@@ -14,8 +14,6 @@ header {
     background-color: #fff;
     border-bottom: #ccc solid 2px;
     width: 100vw;
-    position: sticky;
-        top: 0vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -128,33 +126,27 @@ form {
     }
 
     /* Portfolio Grid */
-    .grid {
+    .gallerygrid {
         display: grid;
-        gap: 15px 20px;
-        grid-template: none;
+        gap: 10px 15px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
     }
         .projects h3 {
             background-color: #4aaaa5;
             color: #fff;
             text-align: center;
             font-weight: lighter;
+            width: 210px;
         }
         .projects img {
-            width: 200px;
-            height: 200px;
+            width: 225px;
+            height: 225px;
+            object-fit: cover;
         }
-    /* .P1 {
-        grid-area: 1/1 2/2;
-    }
-    .P2{
-        grid-area: 1/2 2/3;
-    }
-    .P3 {
-        grid-area: 2/1 3/2;
-    }
-    .P4 {
-        grid-area: 2/2 3/3;
-    }
-    .P5 {
-        grid-area: 3/1 4/2;
-    } */
+        figure h3 {
+            position: absolute;
+                bottom: 10px;
+            padding: 8px;
+        }
