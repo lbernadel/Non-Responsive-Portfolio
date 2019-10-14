@@ -11,11 +11,13 @@ My main challenge was the element spacing-related CSS attributes. Even after com
 ### Sources
 Google is my best friend. It's probably yours too. It helped me find these lifesaving resources during my times of struggle and frustration:
 
-- [Making a Nav Bar] (https://www.w3schools.com/css/css_navbar.asp)
-- [Sticky Footer] (https://css-tricks.com/couple-takes-sticky-footer/)
+- [Making a Nav Bar](https://www.w3schools.com/css/css_navbar.asp)
+- [Sticky Footer](https://css-tricks.com/couple-takes-sticky-footer/)
 - [Creating a Gallery Grid](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
-- [Your First Form w/ HTML] (https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form)
-  - [How to Create a Contact Form] (https://www.w3schools.com/howto/howto_css_contact_form.asp)
-- [CSS Selector Combinations] (https://css-tricks.com/little-css-stuff-newcomers-get-confused-about/)
-  - Also [Grouping CSS Selectors] (https://www.lifewire.com/grouping-multiple-css-selectors-3467065)
-- [Text Sizing w/ em] (http://clagnut.com/blog/348/)
+- [Your First Form w/ HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form)
+  - [How to Create a Contact Form](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+- [CSS Selector Combinations](https://css-tricks.com/little-css-stuff-newcomers-get-confused-about/)
+  - Also [Grouping CSS Selectors](https://www.lifewire.com/grouping-multiple-css-selectors-3467065)
+- [Text Sizing w/ em](http://clagnut.com/blog/348/)
+- [Figuring out what is and how to write a READMe.md file](https://guides.github.com/features/mastering-markdown/)
+   
