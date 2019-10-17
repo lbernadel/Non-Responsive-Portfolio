@@ -2,6 +2,8 @@
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
+    font-size: 16px;
+    line-height: 2;
 
     background-image: url("../Images/gplaypattern.png");
     background-repeat: repeat;
@@ -24,33 +26,6 @@ hr {
     border: #ccc solid 1px;
     margin: 1em 0;
     background-color: #ccc;
-}
-
-p, li {
-    font-size: 16px;
-    line-height: 2;
-}
-
-.content {
-    background-color: #fff;
-    margin: 5% 20% 5% 18%;
-    flex: 1 0 auto;
-    width: 960px;
-    border: #ddd solid 1px;
-    padding: 20px;
-}
-
-footer {
-    background-color:#666;
-    border-top: 8px solid #4aaaa5;
-    flex-shrink: 0;
-    font-size: 14px;
-    text-align: center;
-    color: #fff;
-    padding: 20px;
-    position: -webkit-sticky;
-    position:sticky;
-        bottom: 0;
 }
 
 /* Nav Bar */
@@ -76,6 +51,28 @@ footer {
         color:#fff;
     }    
 
+.content {
+    background-color: #fff;
+    margin: 5% 20% 5% 18%;
+    flex: 1 0 auto;
+    width: 960px;
+    border: #ddd solid 1px;
+    padding: 20px;
+}
+
+footer {
+    background-color:#666;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    position: -webkit-sticky;
+    position:sticky;
+        bottom: 0;
+}
+
 /* Name Logo in Header */
 .logo {
     display: inline-block;
@@ -84,6 +81,7 @@ footer {
     position: absolute;
         top: inherit;
     padding: 24px 8px;
+    height: 37px;
     color:#fff;
     text-align: center;
 }
