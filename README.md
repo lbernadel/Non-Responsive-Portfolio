@@ -1,4 +1,4 @@
-# lbernadel.github.io
+# [Non-Responsive Portfolio](https://lbernadel.github.io/Non-Responsive-Portfolio/)
 
 ## Description
 The purpose of this project was to build a basic website to showcase my work during the Triology Edu. Fullstack Web Development Coding Bootcamp. I had to implement a series of concepts that were taught during Week 1 regarding HTML+CSS: float, padding, margin, display, overflow, clear and text-align. The format & styling guidelines for the end result are in the Instructions folder of this repository. 
